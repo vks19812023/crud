@@ -7,10 +7,10 @@
 	<h1>MySQL Table Viewer</h1>
 	<?php
 		// Define database connection variables
-		$servername = "localhost";
-		$username = "root";
-		$password = "mypassword";
-		$dbname = "mydatabase";
+		$servername = "DBServer";
+		$username = "DB_USER";
+		$password = "DB_PASSWORD";
+		$dbname = "DB_NAME";
 
 		// Create database connection
 		$conn = new mysqli($servername, $username, $password, $dbname);
